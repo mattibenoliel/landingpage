@@ -7,14 +7,14 @@ Version : 1.0
 Author  : Surjith S M
 URI     : https://surjithctly.in/
 
-Copyright © All rights Reserved 
+Copyright © All rights Reserved
 
 */
 
 
 /*------------------------
 [TABLE OF CONTENTS]
-    
+
 1. GLOBAL STYLES
 2. NAVBAR
 3. HERO
@@ -179,6 +179,11 @@ p.lead {
 /* NAVBAR
 ----------------------*/
 
+.logo {
+  width :  80px;
+  height :  42px;
+}
+
 .nav-menu {
     padding: 1rem 0;
     transition: all 0.3s ease;
@@ -187,9 +192,9 @@ p.lead {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: rgb(74, 13, 143);
-    background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    background: -moz-linear-gradient(135deg, rgb(251, 169, 97) 0%, rgb(112, 15, 0) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(251, 169, 97) 0%, rgb(112, 15, 0) 100%);
+    background: linear-gradient(135deg, rgb(251, 169, 97) 0%, rgb(112, 15, 0) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -240,16 +245,16 @@ header {
 }
 
 .bg-gradient {
-    background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: -moz-linear-gradient( 135deg, rgba(251, 169, 97, 0.8) 0%, rgba(112, 15, 0, 0.8) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgba(251, 169, 97, 0.8) 0%, rgba(112, 15, 0, 0.8) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgba(251, 169, 97, 0.8) 0%, rgba(112, 15, 0, 0.8) 100%);
+    background-image: linear-gradient( 135deg, rgba(251, 169, 97, 0.8) 0%, rgba(112, 15, 0, 0.8) 100%);
 }
 
 .tagline {
     font-size: 23px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #fff;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -275,6 +280,50 @@ header {
     }
 }
 
+/* FORMULAIRES
+----------------------*/
+
+#formulaire{
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/bg-form.jpg');
+  background-size: cover;
+  height: 350px;
+}
+
+#mc_embed_signup{
+  width: 550px;
+  margin-left:  250px;
+  padding: 100px;
+
+  }
+
+#title-label{
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#mce-EMAIL, #subscribe {
+  display: inline-block;
+}
+
+#mce-EMAIL {
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  padding: 5px;
+}
+
+#subscribe input {
+  background-color: #A00013;
+  color: #fff;
+  border-radius: 5px;
+  height: 29px;
+  width: 115px;
+  border: none;
+}
 
 /* FEATURES
 ----------------------*/
