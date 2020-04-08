@@ -286,7 +286,7 @@ header {
 #formulaire{
   padding: 20px;
   text-align: center;
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/bg-form.jpg');
+  background-image: linear-gradient(rgba(168, 79, 0, 0.3), rgba(154, 50, 0, 0.3)), url('../images/bg-form.jpg');
   background-size: cover;
   height: 350px;
 }
