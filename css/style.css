@@ -283,7 +283,7 @@ header {
 /* FORMULAIRES
 ----------------------*/
 
-#formulaire{
+#formulaire {
   padding: 20px;
   text-align: center;
   background-image: linear-gradient(rgba(168, 79, 0, 0.3), rgba(154, 50, 0, 0.3)), url('../images/bg-form.jpg');
@@ -291,12 +291,31 @@ header {
   height: 350px;
 }
 
-#mc_embed_signup{
+#mc_embed_signup {
   width: 550px;
   margin-left:  250px;
   padding: 100px;
+}
 
-  }
+
+@media (max-width: 768px) {
+    #formulaire {
+      background-size: cover;
+      height: 350px;
+      background-position: center;
+      background-repeat: repeat-x;
+    }
+
+    #mc_embed_signup {
+      margin-top:  125px;
+      width: auto;
+      margin-left: 0px;
+      padding: 0px;
+    }
+}
+
+
+
 
 #title-label{
   display: block;
@@ -567,6 +586,11 @@ header {
 
 /*  PRICING
 ----------------------*/
+
+.card-price {
+  width: 50%;
+  margin: auto;
+}
 
 @media (max-width:992px) {
     .card-deck {
