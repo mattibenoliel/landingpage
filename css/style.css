@@ -713,3 +713,9 @@ header {
         margin-top: 2rem;
     }
 }
+iframe {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none !important;
+  border-radius: 10px;
+}
