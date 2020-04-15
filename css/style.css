@@ -172,6 +172,10 @@ p.lead {
 
 /* NAVBAR
 ----------------------*/
+.navbar-brand{
+  margin: auto;
+}
+
 .logo {
   width: 80px;
   height: 42px;
@@ -579,6 +583,12 @@ header {
   margin: auto;
 }
 
+@media (max-width:762px) {
+  .card-price {
+    width: 100%;
+  }
+}
+
 @media (max-width:992px) {
   .card-deck {
     -ms-flex-direction: column;
@@ -668,6 +678,21 @@ header {
 
 /*  FOOTER
 ----------------------*/
+footer {
+  margin-top: 20px!important;
+  margin-bottom: 40px!important;
+}
+
+@media (max-width:764px){
+  p {
+    font-size:  12px;
+  }
+}
+
+#faq, #pricing {
+  padding-bottom: 0px!important;
+}
+
 .social-icons {
   text-align: right;
 }
@@ -722,3 +747,19 @@ iframe {
 #mc_embed_signup_scroll2 {
   text-align: center;
 }
+
+
+/* VIDEO */
+
+.video {
+  width: 800px;
+  height: 400px;
+}
+
+@media (max-width:767px) {
+  .video {
+    width: 300px;
+    height: 250px;
+  }
+}
+
