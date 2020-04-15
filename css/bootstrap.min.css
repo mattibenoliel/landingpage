@@ -4008,7 +4008,7 @@ tbody.collapse.show {
 
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, .5);
-  border-color: rgba(255, 255, 255, .1)
+  /*border-color: rgba(255, 255, 255, .1)*/
 }
 
 .navbar-dark .navbar-toggler-icon {
